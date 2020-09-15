@@ -8,20 +8,20 @@ p {
 }
 
 #header {
-    color: rgb(95, 2, 31);
+    color: rgb(53, 15, 89);
     font-weight: 800;
     text-align: center;
     font-size: 42px;
 }
 
 .title {
-    color: rgb(95, 2, 31);
+    color: rgb(53, 15, 89);
     text-decoration: underline;
     font-size: 27px;
 }
 
 .subtitle {
-    color: rgb(95, 2, 31);
+    color: rgb(53, 15, 89);
     font-size: 22px;
 }
 
@@ -31,7 +31,7 @@ p {
 
 .button {
     border-radius: 25px;
-    background: rgb(95, 2, 31);
+    background: rgb(53, 15, 89);
     padding: 10px;
     color: rgba(255, 255, 255, .75);
     text-decoration: none;
@@ -39,7 +39,7 @@ p {
 
 .link {
     text-decoration: underline;
-    color: rgb(95, 2, 31);
+    color: rgb(53, 15, 89);
 }
 
 .bold {
@@ -53,7 +53,7 @@ p {
 /* Nav Bar */
 
 .topnav {
-    background-color:  rgb(95, 2, 31);
+    background-color:  rgb(53, 15, 89);
     overflow: hidden;
 }
 
