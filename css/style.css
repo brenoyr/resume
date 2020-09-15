@@ -7,6 +7,11 @@ p {
     color: rgba(255, 255, 255, .75);
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 #header {
     color: rgb(53, 15, 89);
     font-weight: 800;
