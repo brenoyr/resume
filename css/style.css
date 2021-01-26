@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background:  rgba(10,10,10, .9);
     font-family: 'Times New Roman', sans-serif, Times, serif;
@@ -6,6 +11,8 @@ body {
 p {
     color: rgba(255, 255, 255, .75);
     font-size: 18px;
+    line-height: 22px;
+    padding: 0px 16px;
 }
 
 #header {
@@ -18,22 +25,26 @@ p {
 .title {
     color:rgb(111,38,153);
     text-decoration: underline;
-    font-size: 27px;
+    font-size: 30px;
+    padding: 20px 16px;
 }
 
 .subtitle {
     color:rgb(111,38,153);
     font-size: 24px;
+    padding: 0px 16px;
 }
 
 .list-item {
     color: rgba(255, 255, 255, .75);
     font-size: 18px;
+    line-height: 22px;
+    padding: 0px 16px;
 }
 
 .button {
     border-radius: 25px;
-    background: rgb(53, 15, 89);
+    background:rgb(111,38,153);
     padding: 10px;
     color: rgba(255, 255, 255, .75);
     text-decoration: none;
@@ -57,11 +68,17 @@ p {
 .topnav {
     background-color: rgb(111,38,153);
     overflow: hidden;
-    padding-bottom: 15px;
 }
 
-.topnav li {
+.topnav ul li {
+    position: relative;
     list-style: none;
+}
+
+.topnav ul li ul {
+    display: block;
+    padding: 24px 14px;
+    position: absolute;
 }
 
 .topnav a {
