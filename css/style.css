@@ -22,6 +22,11 @@ img {
     margin-right: auto;
 }
 
+img {
+    max-width: 100%;
+    /* height: auto; */
+}
+
 #header {
     color:rgb(111,38,153);
     font-weight: 800;
