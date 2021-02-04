@@ -1,55 +1,63 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Breno Yamada Riquieri">
-        <meta name="description" content="collision in JavaScript">
-        <meta name="keywords" content="HTML, CSS, JavaScript">
-        <link rel="stylesheet" href="../css/style.css">
-    </head>
-    
-    <nav class="topnav">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="../docs/Breno_resume.pdf" download>Resume PDF</a></li>
-            <li><a href="../docs/Breno_transcript.pdf" download>Transcripts PDF</a></li>
-            <li><a href="projects.html" style="float: right;">Projects</a></li>
-        </ul>
-    </nav>
 
-    <body>
-        <br>
-        <h1 id="header">Breno Yamada Riquieri</h1>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Breno Yamada Riquieri">
+    <meta name="description" content="collision in JavaScript">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
 
-        <p class="sub-header" style="text-align: center;">
-            305 Wisteria St #6354 • Ruston, LA 71272 • (318) 592-2862 •
-            <a href="mailto: breno.yr@gmail.com" class="link">breno.yr@gmail.com</a> •
-            LinkedIn: <a href="https://www.linkedin.com/in/brenoyamada/" class="link" target="_blank">brenoyamada</a> •
-            github: <a href="https://github.com/brenoyr/personal" class="link" target="_blank">brenoyr</a>
-            <br><br><br>
-        </p>
+<nav class="topnav">
+    <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <ul>
+        <li><a href="../index.html" class="listItem">Home</a></li>
+        <li><a href="about.html" class="listItem">About</a></li>
+        <li><a href="contact.html" class="listItem">Contact</a></li>
+        <li><a href="../docs/Breno_resume.pdf" class="listItem" download>Resume PDF</a></li>
+        <li><a href="../docs/Breno_transcript.pdf" class="listItem" download>Transcripts PDF</a></li>
+        <li><a href="projects.html" class="listItem">Projects</a></li>
+    </ul>
+</nav>
+<br>
 
-        <p class="description">
-            Me, Cody Holland, Ethan Sanford, and Atmesh Acharya worked on a Spotify Integration with games for our Senior Capstone Project: <br><br>
-            Using Spotify's Web API, we managed to make song requests in the user's behalf. <br>
-            The goal was to help game developers by passing the cost to the user when it came to the game's soundtrack. <br><br>
-            It was a long project, so I love looking back and comparing the end result with what we had after the first week. <br>
-            We planned on making a demo game to showcase song requests. That would require recognizing game events, like collisions. <br>
-            The first thing we had to show for was a small box game written in JavaScript that recognizes collisions. <br>
-            You can check it out by clicking the first demo by clicking the button below:<br><br>
+<body>
+    <br>
+    <h1 id="header">Breno Yamada Riquieri</h1>
 
-            <a href="collision_demo.html" class="button">Demo</a> <br><br>
+    <p class="sub-header" style="text-align: center;">
+        305 Wisteria St #6354 • Ruston, LA 71272 • (318) 592-2862 •
+        <a href="mailto: breno.yr@gmail.com" class="link">breno.yr@gmail.com</a> •
+        LinkedIn: <a href="https://www.linkedin.com/in/brenoyamada/" class="link" target="_blank">brenoyamada</a> •
+        github: <a href="https://github.com/brenoyr/personal" class="link" target="_blank">brenoyr</a>
+        <br><br><br>
+    </p>
 
-            And compare it to the end result at: 
-            
-            <a href="https://spotify-web-integration.herokuapp.com" class="link" target="_blank">Spotify Web Integration</a> <br><br>
+    <p class="description">
+        Me, Cody Holland, Ethan Sanford, and Atmesh Acharya worked on a Spotify Integration with games for our Senior Capstone Project: <br><br>
+        Using Spotify's Web API, we managed to make song requests in the user's behalf. <br>
+        The goal was to help game developers by passing the cost to the user when it came to the game's soundtrack. <br><br>
+        It was a long project, so I love looking back and comparing the end result with what we had after the first week. <br>
+        We planned on making a demo game to showcase song requests. That would require recognizing game events, like collisions. <br>
+        The first thing we had to show for was a small box game written in JavaScript that recognizes collisions. <br>
+        You can check it out by clicking the first demo by clicking the button below:<br><br>
 
-        </p>
+        <a href="collision_demo.html" class="button">Demo</a> <br><br>
 
-        <!-- <div><script src="../js/game.js"></script></div> -->
+        And compare it to the end result at: 
+        
+        <a href="https://spotify-web-integration.herokuapp.com" class="link" target="_blank">Spotify Web Integration</a> <br><br>
 
-    </body>
+    </p>
+
+    <!-- <div><script src="../js/game.js"></script></div> -->
+
+    <script src="../js/app.js"></script>
+</body>
 </html>
  
