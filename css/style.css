@@ -22,11 +22,6 @@ img {
     margin-right: auto;
 }
 
-img {
-    max-width: 100%;
-    /* height: auto; */
-}
-
 #header {
     color:rgb(111,38,153);
     font-weight: 800;
@@ -79,32 +74,55 @@ img {
     width: 500px;
 }
 
+.icon {
+    width: 22px;
+}
+
 /* Nav Bar */
 
 .topnav {
     background-color: rgb(111,38,153);
     overflow: hidden;
+    position: relative;
+    height: 6vh;
 }
 
-.topnav ul li {
-    /* position: relative; */
+.topnav ul {
+    position: fixed;
     list-style: none;
+    display: none;
 }
 
-.topnav ul li ul {
-    /* display: block; */
-    padding: 24px 14px;
+.topnav ul.open{
+    display: initial;
 }
 
-.topnav ul li ul li {
-    /* display: block; */
-    padding: 24px 14px;
-}
-
-.topnav a {
+.listItem {
     float: left;
     color: rgba(255, 255, 255);
     text-align: center;
-    padding: 10px 12px;
+    padding: 14px 22px;
     text-decoration: none;
+    width: 100%;
+    position: relative;
+    top: 6vh;
+    background-color: rgb(111,38,153);
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    width: 30px;
+    left: 33px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    padding: 10px;
+    z-index: 1;
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px;
 }
