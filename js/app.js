@@ -1,15 +1,12 @@
-const hamburger = document.querySelector('.hamburger');
-const navLinks = document.querySelector('.topnav ul');
-// const links = documents.querySelectorAll('topnav a li');
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".topnav ul");
+const overlay = document.querySelector(".overlay");
+let scroll = false;
 
-// hamburger.addEventListener('mouseout', () => {
-//     navLinks.classList.toggle('open');
-// })
+const toggleNavBar = function () {
+  navLinks.classList.toggle("open");
+  overlay.classList.toggle("hidden");
+};
 
-// hamburger.addEventListener('mouseover', () => {
-//     navLinks.classList.toggle('open');
-// })
-
-hamburger.addEventListener('click', () => {
-    navLinks.classList.toggle('open');
-})
+hamburger.addEventListener("click", toggleNavBar);
+overlay.addEventListener("click", toggleNavBar);

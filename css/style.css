@@ -1,128 +1,143 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 0;
 }
 
 body {
-    background:  rgba(10,10,10, .9);
-    font-family: 'Times New Roman', sans-serif, Times, serif;
+  background: rgba(10, 10, 10, 0.9);
+  font-family: "Times New Roman", sans-serif, Times, serif;
 }
 
 p {
-    color: rgba(255, 255, 255, .75);
-    font-size: 18px;
-    line-height: 22px;
-    padding: 0px 16px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 18px;
+  line-height: 22px;
+  padding: 0px 16px;
 }
 
 img {
-    display: block;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #header {
-    color:rgb(111,38,153);
-    font-weight: 800;
-    text-align: center;
-    font-size: 42px;
+  color: rgb(111, 38, 153);
+  font-weight: 800;
+  text-align: center;
+  font-size: 42px;
 }
 
 .title {
-    color:rgb(111,38,153);
-    text-decoration: underline;
-    font-size: 30px;
-    padding: 20px 16px;
+  color: rgb(111, 38, 153);
+  text-decoration: underline;
+  font-size: 30px;
+  padding: 20px 16px;
 }
 
 .subtitle {
-    color:rgb(111,38,153);
-    font-size: 24px;
-    padding: 0px 16px;
+  color: rgb(111, 38, 153);
+  font-size: 24px;
+  padding: 0px 16px;
 }
 
 .list-item {
-    color: rgba(255, 255, 255, .75);
-    font-size: 18px;
-    line-height: 22px;
-    padding: 0px 16px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 18px;
+  line-height: 22px;
+  padding: 0px 16px;
 }
 
 .button {
-    border-radius: 25px;
-    background:rgb(111,38,153);
-    padding: 10px;
-    color: rgba(255, 255, 255, .75);
-    text-decoration: none;
-  }
+  border-radius: 25px;
+  background: rgb(111, 38, 153);
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
 
 .link {
-    text-decoration: underline;
-    color:rgb(111,38,153);
+  text-decoration: underline;
+  color: rgb(111, 38, 153);
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .italics {
-    font-style: italic;
+  font-style: italic;
 }
 
 .profilepic {
-    width: 500px;
+  width: 500px;
 }
 
 .icon {
-    width: 22px;
+  width: 22px;
+}
+
+.hidden {
+  display: none;
 }
 
 /* Nav Bar */
 
 .topnav {
-    background-color: rgb(111,38,153);
-    overflow: hidden;
-    position: relative;
-    height: 6vh;
+  background-color: rgb(111, 38, 153);
+  overflow: hidden;
+  position: relative;
+  height: 6vh;
+  z-index: 100;
 }
 
 .topnav ul {
-    position: fixed;
-    list-style: none;
-    display: none;
+  position: fixed;
+  list-style: none;
+  display: none;
 }
 
-.topnav ul.open{
-    display: initial;
+.topnav ul.open {
+  display: initial;
 }
 
 .listItem {
-    float: left;
-    color: rgba(255, 255, 255);
-    text-align: center;
-    padding: 14px 22px;
-    text-decoration: none;
-    width: 100%;
-    position: relative;
-    top: 6vh;
-    background-color: rgb(111,38,153);
+  float: left;
+  color: rgba(255, 255, 255);
+  text-align: center;
+  padding: 14px 22px;
+  text-decoration: none;
+  width: 100%;
+  position: relative;
+  top: 6vh;
+  background-color: rgb(111, 38, 153);
 }
 
 .hamburger {
-    position: absolute;
-    cursor: pointer;
-    width: 30px;
-    left: 68px;
-    top: 50%;
-    transform: translate(0%, -50%);
-    padding: 10px;
-    z-index: 1;
+  position: absolute;
+  cursor: pointer;
+  width: 30px;
+  left: 68px;
+  top: 50%;
+  transform: translate(0%, -50%);
+  padding: 10px;
+  z-index: 100;
 }
 
 .line {
-    width: 30px;
-    height: 3px;
-    background: white;
-    margin: 5px;
+  width: 30px;
+  height: 3px;
+  background: white;
+  margin: 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
 }
